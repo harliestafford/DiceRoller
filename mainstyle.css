@@ -1,0 +1,63 @@
+body {
+    background-image: url(images/ghosts_saltmarsh.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-color: rgba( rgb(11, 14, 11), .9);
+}
+button {
+    background: none;
+    border: none;
+}
+button:hover {
+    background: white;
+}
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.header {
+    background-color: white;
+    max-width: 100%;
+}
+.container{
+    max-width: 700px;
+}
+.rollBTN {
+    border: none;
+    display: block;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.rollBTN:hover {
+    color: red;
+}
+.main {
+    background-color: rgba(255, 255, 255, .5);
+}
+.dice {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+.dice2 {
+    width: 80px;
+    height: 100px;
+    margin: 20px;
+}
+.numberBox {
+    background-color: white; 
+    width: 90%;
+    height: 300px;  
+    text-align: center; 
+    margin: 10px;
+}
+h2 {
+    vertical-align: middle;
+    line-height: 300px;
+}
+.bottomBorder {
+    background-color: white;
+}

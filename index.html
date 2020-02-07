@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="mainstyle.css">
+    <title>RPG Dice Game</title>
+</head>
+<body>
+    <div class="topBanner">
+        <div class="header">
+            <h1>LET'S ROLL</h1>
+        </div>
+        <div class="container p-0 main">
+            <div class="row">
+                <div class="col-8">
+                    <div class="diceImg">
+                        <button onclick="roll4()"><img id="dice4" class="dice" src="images/dice4.png" alt="dice4" class="dice4"></button>
+                        <button onclick="roll6()"><img id="dice6" class="dice" src="images/dice6.png" alt="dice6" class="dice6"></button>
+                        <button onclick="roll8()"><img id="dice8" class="dice2" src="images/dice8.png" alt="dice8" class="dice8"></button>
+                        <button onclick="roll10()"><img id="dice10" class="dice2" src="images/dice10.png" alt="dice10" class="dice10"></button>
+                        <button onclick="roll12()"><img id="dice12" class="dice" src="images/dice12.png" alt="dice12" class="dice12"></button>
+                        <button onclick="roll20()"><img id="dice20" class="dice" src="images/dice20.png" alt="dice20" class="dice20"></button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="numberBox">
+                        <h2 id="result" >#</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    
+    
+</body>
+
+<script src="myscripts.js"></script>
+
+</html>
